@@ -26,11 +26,6 @@ body {
     gap: 0.5rem;
   }
 
-  nav a::before {
-    content: "📖";
-    font-size: 1.2rem;
-  }
-
   nav a:hover {
     text-decoration: underline;
   }
