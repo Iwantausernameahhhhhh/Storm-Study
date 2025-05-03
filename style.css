@@ -32,7 +32,7 @@ body {
   
   .grid {
     display: grid;
-    grid-template-columns: repeat(1, 3fr); /* 3 columns */
+    grid-template-columns: repeat(2, 3fr); /* 2 columns */
     gap: 2em; /* Space between items */
     margin: 30px;
     justify-items: center; /* Center items horizontally */
