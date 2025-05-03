@@ -12,6 +12,29 @@ body {
     padding: 1em 0;
   }
   
+  nav {
+    margin-top: 10px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #005577;
+    margin: 0 10px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  nav a::before {
+    content: "📖";
+    font-size: 1.2rem;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
   .grid {
     display: flex;
     justify-content: center;
