@@ -40,3 +40,8 @@ body {
     transition: 0.3s;
   }
   
+  .emoji-icon {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
