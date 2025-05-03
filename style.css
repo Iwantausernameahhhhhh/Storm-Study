@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eef7fb;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  header, footer {
+    background-color: #005577;
+    color: white;
+    padding: 1em 0;
+  }
+  
+  .grid {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+    margin: 30px;
+  }
+  
+  .storm-card {
+    text-decoration: none;
+    color: black;
+    width: 200px;
+    background: white;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .storm-card img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .storm-card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+  }
+  
