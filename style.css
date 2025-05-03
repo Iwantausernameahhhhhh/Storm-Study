@@ -31,11 +31,11 @@ body {
   }
   
   .grid {
-    display: flex;
-    justify-content: center;
-    gap: 2em;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 2em; /* Space between items */
     margin: 30px;
+    justify-items: center; /* Center items horizontally */
   }
   
   .storm-card {
