@@ -68,3 +68,10 @@ body {
   ul li {
     margin-bottom: 0.5rem; /* Adjust the value as needed */
   }
+
+  /* Remove footer background and text color */
+  footer {
+    background-color: transparent; /* Match body background */
+    color: inherit; /* Inherit text color from body */
+    padding: 1em 0; /* Optional: Keep padding or adjust as needed */
+  }
